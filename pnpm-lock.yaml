@@ -19,9 +19,7 @@ importers:
       '@sveltejs/kit': next
       '@typescript-eslint/eslint-plugin': ^5.27.0
       '@typescript-eslint/parser': ^5.27.0
-      eslint: ^8.16.0
-      eslint-config-prettier: ^8.3.0
-      eslint-plugin-svelte3: ^4.0.0
+      eslint-config-custom: workspace:*
       prettier: ^2.6.2
       prettier-plugin-svelte: ^2.7.0
       svelte: ^3.44.0
@@ -37,9 +35,7 @@ importers:
       '@sveltejs/kit': 1.0.0-next.543_svelte@3.53.1+vite@3.2.3
       '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
       '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
-      eslint: 8.27.0
-      eslint-config-prettier: 8.5.0_eslint@8.27.0
-      eslint-plugin-svelte3: 4.0.0_ktwpzwc5ejqdbyb2mks6m4mhya
+      eslint-config-custom: link:../../packages/eslint-config-custom
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_nryolsexf6k3znhuh4uzpugsem
       svelte: 3.53.1
@@ -67,9 +63,6 @@ importers:
     devDependencies:
       typescript: 4.8.4
 
-  packages/tsconfig:
-    specifiers: {}
-
   packages/ui:
     specifiers:
       '@sveltejs/adapter-auto': next
@@ -77,9 +70,7 @@ importers:
       '@sveltejs/package': next
       '@typescript-eslint/eslint-plugin': ^5.27.0
       '@typescript-eslint/parser': ^5.27.0
-      eslint: ^8.16.0
-      eslint-config-prettier: ^8.3.0
-      eslint-plugin-svelte3: ^4.0.0
+      eslint-config-custom: workspace:*
       prettier: ^2.6.2
       prettier-plugin-svelte: ^2.7.0
       svelte: ^3.44.0
@@ -94,9 +85,7 @@ importers:
       '@sveltejs/package': 1.0.0-next.1_f4bsrsgtzvlkrtbz2ig7nipio4
       '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
       '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
-      eslint: 8.27.0
-      eslint-config-prettier: 8.5.0_eslint@8.27.0
-      eslint-plugin-svelte3: 4.0.0_ktwpzwc5ejqdbyb2mks6m4mhya
+      eslint-config-custom: link:../eslint-config-custom
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_nryolsexf6k3znhuh4uzpugsem
       svelte: 3.53.1
@@ -971,6 +960,7 @@ packages:
       eslint: '>=7.0.0'
     dependencies:
       eslint: 8.27.0
+    dev: false
 
   /eslint-config-turbo/0.0.4_eslint@8.27.0:
     resolution: {integrity: sha512-HErPS/wfWkSdV9Yd2dDkhZt3W2B78Ih/aWPFfaHmCMjzPalh+5KxRRGTf8MOBQLCebcWJX0lP1Zvc1rZIHlXGg==}
@@ -989,6 +979,7 @@ packages:
     dependencies:
       eslint: 8.27.0
       svelte: 3.53.1
+    dev: false
 
   /eslint-plugin-turbo/0.0.4_eslint@8.27.0:
     resolution: {integrity: sha512-dfmYE/iPvoJInQq+5E/0mj140y/rYwKtzZkn3uVK8+nvwC5zmWKQ6ehMWrL4bYBkGzSgpOndZM+jOXhPQ2m8Cg==}

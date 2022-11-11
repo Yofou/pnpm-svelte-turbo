@@ -1,8 +1,8 @@
 <script lang="ts">
-	let count = 0
-	
-	const inc = () => count++
-	const dec = () => count--
+	let count = 0;
+
+	const inc = () => count++;
+	const dec = () => count--;
 </script>
 
 <div>
